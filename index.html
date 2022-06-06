@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Curriculum Vitae</title>
+        <link rel = "stylesheet" href="mystyle.css">
+        <meta charset="utf-8">
+    </head>
+    <body onload="alert('Hi!')">
+        <!--設定h2的CSS 變字體顏色還有背景-->
+        <h2>Welcome to my CV</h2>
+        <!--統一設定hr的格式-->
+        <hr>
+        <div style="background-color: rgb(254, 255, 231);">
+            <p>*姓名：胖丁</p>
+            <p>*學號：109999999</p>
+            <p>*性別：女</p>
+        </div>
+        <hr>
+        <div style="background-color: rgb(226, 235, 255);">
+            <h4>大學時期曾參加過：</h4>
+            <!--使用CSS改變標籤顏色-->
+            <ol>
+                <li>系學會公關部部員</li>
+                <li>系女排</li>
+                <!--使用strong強調疫情 真的拜託疫情快快退散QQ-->
+                <li>辦一半結果因為<strong>疫情</strong>取消的宿營</li>
+                <li>準備要表演又因為<strong>疫情</strong>取消的系卡</li>
+            </ol>
+            <br>
+        </div>
+        <hr>
+        <div style="background-color: rgb(244, 231, 255);">
+            <h4>學歷</h4>
+            <ul>
+                <li>國中：大X國中</li>
+                <li>高中：大X高中</li>
+                <li>大學：X央大學</li>
+            </ul>
+            <br>
+        </div>
+        <hr>
+        <div style="background-color: rgb(255, 227, 246);">
+            <h4>喜歡的東西</h4>
+            <!--span強調對蠑螈的喜愛-->
+            <p id="click"><span>蠑螈！滿滿的蠑螈！！</span></p><button type="button" onclick="myFunction()">不點點看嗎</button>
+            <br>
+            <a href="https://www.youtube.com/channel/UCpGk56cJDZcVqIxZatX7nbQ" target="_blank"><img src="giphy.gif" alt="just a gif of Axolotl" width="125" height="125"></a>
+            <a href="https://www.instagram.com/purinharumaki_karameru/" target="_blank"><img src="giphy (1).gif" alt="just a gif of Axolotl" width="125" height="120"></a>
+            <a href="https://twitter.com/purinharumaki" target="_blank"><img src="karameru-axolotl.gif" alt="just a gif of Axolotl" width="125" height="125"></a>
+        </div>
+        <script>
+            function myFunction(){
+                document.getElementById("click").innerHTML = "(((o(*ﾟ▽ﾟ*)o)))";
+            }
+        </script>
+    </body>
+</html>
